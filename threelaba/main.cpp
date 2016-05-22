@@ -12,14 +12,13 @@ int main (int argc, char *argv[])
 
 	cout << t.getNumberQuestions() << endl;
 	cout << t.getComplexity() << endl;
+	cout << "**********************************" << endl;
 	cout << e.getNumberQuestions() << endl;
 	cout << e.getComplexity() << endl;
 	cout << e.getIndividualTask() << endl;
-	//cout << fe.getNumberQuestions() << endl;
-	//cout << fe.getComplexity() << endl;
-	cout << fe.getIndividualTask() << endl;
-	cout << fe.getPractice() << endl;
-	
+
+
+	cout << "" << endl;
 	return 0;
 }
 

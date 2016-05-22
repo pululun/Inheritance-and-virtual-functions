@@ -1,8 +1,7 @@
 ﻿#include "Exam.h"
-Exam::Exam(void){
-	this->individualTask = true;
-}
-
+Exam::Exam(void):Test(){
+			this->individualTask = true;
+		}
 void Exam::setIndividualTask(bool individualTask){
 	this->individualTask = individualTask;
 }
