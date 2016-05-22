@@ -1,12 +1,19 @@
 ﻿#include <iostream>
+#include "Exam.h"
 
 using namespace std;
 
-#ifndef ___
-#define ___
+#ifndef _TRIAL_H_
+#define _TRIAL_H_
 
-class {
-
+class Trial : public Exam{
+	protected:
+		bool timeLimit;
+	public:
+	Trial(void);
+	void setTimeLimit(bool );
+	bool getTimeLimit();
+	~Trial(void);
 };
 
 #endif

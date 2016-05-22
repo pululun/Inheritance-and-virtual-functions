@@ -1,7 +1,7 @@
 ﻿#include "FinalExam.h"
 
-FinalExam::FinalExam(void){
-	this->practice = true;
+FinalExam::FinalExam(void):Exam(){
+	this->practice = false;
 }
 
 void FinalExam::setPractice(bool practice){

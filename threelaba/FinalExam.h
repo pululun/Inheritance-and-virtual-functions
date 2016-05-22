@@ -7,7 +7,7 @@ using namespace std;
 #ifndef _FINALEXAM_H_
 #define _FINALEXAM_H_
 
-class FinalExam : public Test, public Exam{
+class FinalExam : public Exam{
 	protected:
 		bool practice;
 	public:
