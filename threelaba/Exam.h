@@ -11,6 +11,7 @@ class Exam : public Test{
 		bool individualTask;
 	public:
 		Exam(void);
+		void startTest();
 		void setIndividualTask(bool );
 		bool getIndividualTask();
 		~Exam(void);

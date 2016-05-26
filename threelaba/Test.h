@@ -12,6 +12,7 @@ class Test{
 	public:
 		Test(void);
 		Test(int ,int );
+		virtual void startTest();
 		void setNumberQuestions(int );
 		int getNumberQuestions();
 		void setComplexity(int );

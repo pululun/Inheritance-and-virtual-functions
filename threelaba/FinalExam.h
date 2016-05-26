@@ -12,6 +12,7 @@ class FinalExam : public Exam{
 		bool practice;
 	public:
 		FinalExam(void);
+		void startTest();
 		void setPractice(bool );
 		bool getPractice();
 		~FinalExam(void);

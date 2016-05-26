@@ -4,6 +4,10 @@ Trial::Trial(void): Exam(){
 	this->timeLimit = true;
 }
 
+void Trial::startTest(){
+	cout << "Trial start" << endl;
+}
+
 void Trial::setTimeLimit(bool timeLimit){
 	this->timeLimit = timeLimit;
 }

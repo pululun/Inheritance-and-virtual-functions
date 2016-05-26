@@ -29,7 +29,28 @@ int main (int argc, char *argv[])
 	cout << tr.getIndividualTask() << endl;
 	cout << tr.getTimeLimit() << endl;
 
+	Test* test = new Test;
+
+	Exam* exam = new Exam;
+	FinalExam* finalExam = new FinalExam;
+	Trial* trial = new Trial;
+
+	cout << "**************** Virtual method ****************" << endl;
+
+	test->startTest();
+	test = exam;
+	test->startTest();
+	test = finalExam;
+	test->startTest();
+	test = trial;
+	test->startTest();
+
+
 	cout << "" << endl;
+	delete test;
+	delete exam;
+	delete finalExam;
+	delete trial;
 	return 0;
 }
 

@@ -9,6 +9,10 @@ Test::Test(int numberQuestions,int complexity){
 	this->complexity = complexity;
 }
 
+void Test::startTest(){
+	cout << "Test start" << endl;
+}
+
 void Test::setNumberQuestions(int numberQuestions){
 	this->numberQuestions = numberQuestions;
 }

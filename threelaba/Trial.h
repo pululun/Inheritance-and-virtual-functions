@@ -11,6 +11,7 @@ class Trial : public Exam{
 		bool timeLimit;
 	public:
 	Trial(void);
+	void startTest();
 	void setTimeLimit(bool );
 	bool getTimeLimit();
 	~Trial(void);
